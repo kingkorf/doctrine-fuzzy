@@ -11,7 +11,7 @@ use Doctrine\ORM\Query\SqlWalker;
  * "MATCH" "(" StateFieldPathExpression {"," StateFieldPathExpression}* ")" "AGAINST" "("
  * StringPrimary ["BOOLEAN"] ["EXPAND"] ")"
 */
-class MatchAgainst extends FunctionNode
+class MatchAgainstFunction extends FunctionNode
 {
 
     /** @var array list of \Doctrine\ORM\Query\AST\PathExpression */
